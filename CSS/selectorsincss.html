@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selecotr in css</title>
+    <style>
+      /* 1  tag selecor  */
+        h2 {
+            color: red;
+        }
+h2:hover{
+    color: chartreuse;
+}
+
+       /* 2 id seletor    */
+       #id{
+        color:green;
+       }
+       #mypara{
+        color: blue;
+       }
+
+       /* 3 cls selecotr  */
+       .fe {
+        color:purple;
+       }
+       .exl {
+        background-color: gray;
+       }
+       .size{
+        font-size: 30px;
+       }
+
+
+       /* 4 gouping of selecots  */
+      
+       h3,h4, #ram {
+        color: pink;
+       }
+/* Universal selecot  */
+
+/* *{
+    background-color: black;
+    color: white;
+} */
+
+
+/* pseudo selecot  */
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    border-radius: 15px; 
+    margin: 20px;
+}
+
+a:hover{
+    color: black;
+    background-color:green;
+}
+a:active{
+    color: red;
+}
+a:visited{
+    color: gray;
+}
+
+input:focus{
+    background-color: rgb(255, 0, 0);
+}
+
+
+/* pseudo elements  */
+span{
+    background-color: yellow;
+}
+span::before{
+    content: "before";
+    background-color: red;
+}
+span::after{
+    content: 'afterspan';
+    content: '→';
+    background-color: green;
+}
+       
+    </style>
+</head>
+<body>
+    <h1>selectors in css</h1>
+    <ol>
+        <li>tag selecotr </li>
+        <li>id selector</li>
+        <li>class seelctor</li>
+        <li>group selector</li>
+        <li>universal selecotr</li>
+        <li>pseudo selector</li>
+        <li>pseudo elements</li>
+    </ol>
+    <hr>
+    <hr>
+    <br>
+    <h2   >tag selecotr </h2>
+
+    <hr><hr>
+    <br>
+
+    <h2 id="id"  >id selector tag</h2>
+    <p id="mypara" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad repudiandae temporibus nesciunt, aliquid ducimus saepe perferendis, delectus earum id eaque itaque deserunt ex laborum voluptas enim? Nostrum exercitationem dolor, labore vitae id dolores dignissimos!</p>
+
+    <hr>
+    <hr>
+    <br>
+    <h2>clss selecotr </h2>
+    <p class="fe" >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, incidunt?</p>
+    <p class="exl ">Lorem ipsum dolor sit amet.</p>
+    <p class="fe exl size">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsam atque impedit, qui possimus illum itaque suscipit voluptate error dolore quia aperiam. Optio delectus, pariatur dolores sequi minima saepe eos.</p>
+
+    <hr><hr><br><br>
+    <h2>grouping of selectors</h2>
+
+
+    <h3>h3 taggg</h3>
+    <h4>h4 ysh</h4>
+    <h2 id="ram">h2 tag with id</h2>
+<hr><hr><br><br>
+<h2>Universal selecotor </h2>
+
+<hr><hr> <br> <br>
+<h2>pseudo selecots</h2>
+ <a href="https://www.youtube.com">Register Now</a>
+<input type="text">
+
+
+<hr><hr><br><br>
+<h2>pseudo eleements</h2>
+
+
+<span>Hi i am a  span tag</span>
+    </body>
+</html>
